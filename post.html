@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="description" content="A specific blog post on The Library book blog">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="css/style.css" rel="stylesheet">
+    <link href="css/post.css" rel="stylesheet">
+    <link href="css/media.css" rel="stylesheet">
+    <link rel="icon" href="images/icon/favicon.png">
+    <title>Loading ... | The Library</title>
+    <!-- Hotjar Tracking Code for https://willowy-elf-6d8d7c.netlify.app/ -->
+    <script>
+      (function (h, o, t, j, a, r) {
+        h.hj =
+          h.hj ||
+          function () {
+            (h.hj.q = h.hj.q || []).push(arguments);
+          };
+        h._hjSettings = { hjid: 3148932, hjsv: 6 };
+        a = o.getElementsByTagName("head")[0];
+        r = o.createElement("script");
+        r.async = 1;
+        r.src = t + h._hjSettings.hjid + j + h._hjSettings.hjsv;
+        a.appendChild(r);
+      })(window, document, "https://static.hotjar.com/c/hotjar-", ".js?sv=");
+    </script>
+  </head>
+  <body id="top-of-page">
+    <header>
+      <div class="banner">
+        <div class="banner-content">
+          <a href="index.html">
+            <span>The</span>
+            Library
+          </a>
+        </div>
+      </div>
+      <label class="navigation-hamburger" for="navigation-hamburger">
+        <img src="images/icon/menu-icon.png" alt="Main navigation open icon">
+      </label>
+      <input type="checkbox" id="navigation-hamburger">
+      <nav>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="posts.html">Posts</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <section class="post-content">
+        <h1>Loading ...</h1>
+        <div class="loading"></div>
+      </section>
+      <section class="post-comments">
+        <h2>Leave a comment</h2>
+        <form>
+          <div>
+            <label for="author_name">Name: </label>
+            <input id="author_name" type="text" name="author_name" placeholder="Name ...">
+            <p id="form-error_name" class="form-error">Please enter your name</p>
+          </div>
+          <div>
+            <label for="content">Message: </label>
+            <textarea id="content" name="content" placeholder="Comment ..."></textarea>
+            <p id="form-error_message" class="form-error">Please enter a message</p>
+          </div>
+          <button class="cta" type="submit">Send message</button>
+        </form>
+        <div class="feedback"></div>
+        <section class="comments">
+          <h3>Comments</h3>
+          <div class="posted-comments"></div>
+        </section>
+      </section>
+      <div class="modal"></div>
+    </main>
+    <footer>
+      <section>
+        <h3>Shortcuts</h3>
+        <ul>
+          <li><a href="#top-of-page">Top of page</a></li>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="posts.html">Posts</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </section>
+      <div><a href="index.html">2022 - The Library</a></div>
+    </footer>
+    <script src="js/navigation.js"></script>
+    <script src="js/post.js" type="module"></script>
+  </body>
+</html>
